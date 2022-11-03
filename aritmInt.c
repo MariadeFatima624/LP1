@@ -21,11 +21,11 @@ int main(void){
     int modulo = primeiroInt % segundoInt;
 
     printf("O resultados aritmeticas com %d e %d sao:\n ", primeiroInt, segundoInt);
-    printf("%d + %d = %d \n", primeiroInt, segundoInt, soma);
-    printf("%d + %d = %d \n", primeiroInt, segundoInt, subtracao);
-    printf("%d + %d = %d \n", primeiroInt, segundoInt, multiplicacao);
-    printf("%d + %d = %d \n", primeiroInt, segundoInt, divisao);
-    printf("%d + %d = %d \n", primeiroInt, segundoInt, modulo);
+    printf("%d+%d = %d \n", primeiroInt, segundoInt, soma);
+    printf("%d-%d = %d \n", primeiroInt, segundoInt, subtracao);
+    printf("%d*%d = %d \n", primeiroInt, segundoInt, multiplicacao);
+    printf("%d/%d = %d \n", primeiroInt, segundoInt, divisao);
+    printf("%d modulo %d = %d \n", primeiroInt, segundoInt, modulo);
 
 
 
